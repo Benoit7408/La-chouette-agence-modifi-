@@ -7,15 +7,64 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+
+#bloc-0{
+    width: 55%;
+    margin:auto;
+    padding:2rem;
+}
+
+.col-sm-6{padding: 20px;}
+.col-sm-6>a{
+    width: 270px;
+    display: flex!important;
+    justify-content: center!important;
+}
+
+.col-sm-6 figcaption{
+    width: 270px;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
     outline: none!important;
+    
 }
 
 a:hover {
     text-decoration: none;
     cursor: pointer;
+}
+.col-sm-3{
+    padding:5%
+}
+.col-sm-3>ul{
+    display: flex;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    justify-content: space-evenly;
+}
+.text-center{
+    list-style-type: none;
+}
+
+#bloc-4-portfolio{
+    display: flex;
+    flex-direction: column;
+}
+#bloc-3-what-i-do{
+    padding: 5%;
+}
+#bloc-1-hero{
+    padding: 5%;
+}
+#bloc-5-cta .row{
+    padding: 10%;
+}
+#bloc-8{
+    padding: 5%;
 }
 
 #page-loading-blocs-notifaction {
@@ -31,7 +80,7 @@ a:hover {
     width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
-    padding: 0 50px;
+    padding: 0 ;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -294,7 +343,6 @@ a:hover {
 
 .navbar-brand {
     height: auto;
-    padding: 3px 15px;
     font-size: 25px;
     font-weight: normal;
     font-weight: 600;
@@ -303,7 +351,6 @@ a:hover {
 
 .navbar-brand img {
     max-height: 200px;
-    margin: 0 5px 0 0;
     display: inline;
 }
 
@@ -437,7 +484,7 @@ nav .caret {
 
 .mg-md {
     margin-top: 10px;
-    margin-bottom: 20px;
+   
 }
 
 .mg-lg {
@@ -739,14 +786,7 @@ h4 {
     color: #FFFFFF!important;
 }
 
-.portfolio-thumb {
-    margin-bottom: 24px;
-}
 
-.portfolio-row {
-    margin-bottom: 44px;
-    margin-top: 50px;
-}
 
 .avatar {
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
@@ -813,16 +853,12 @@ h4 {
     background-image: url("img/dots-bg.png");
 }
 
-.bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
-}
-
 .bg-banniere {
     background-image: url("img/la-chouette-agence-banniere.jpg");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -924,11 +960,10 @@ h4 {
         -ms-transform: none;
     }
     .nav > li {
-        margin-top: 0;
-        border-bottom: 1px solid rgba(0, 0, 0, .1);
+        
+        border-bottom: 2px solid rgba(0, 0, 0, .1);
         background: rgba(0, 0, 0, .05);
-        text-align: left;
-        padding-left: 15px;
+        text-align: center;
         width: 100%;
     }
     .nav > li:hover {
@@ -965,14 +1000,7 @@ h4 {
         max-height: 40px;
         width: auto;
     }
-    .nav-invert .navbar-header {
-        float: none;
-        width: 100%;
-    }
-    .nav-invert .navbar-toggle {
-        float: left;
-        margin-left: 10px;
-    }
+   
     .bloc {
         padding-left: 0;
         padding-right: 0;

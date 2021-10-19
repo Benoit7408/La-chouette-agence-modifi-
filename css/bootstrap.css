@@ -2331,7 +2331,7 @@ pre code {
         width: 33.33333333%
     }
     .col-sm-3 {
-        width: 25%
+        width: 100%
     }
     .col-sm-2 {
         width: 16.66666667%
@@ -4844,7 +4844,8 @@ textarea.input-group-sm>.input-group-btn>.btn {
 .nav>li>a {
     position: relative;
     display: block;
-    padding: 10px 15px
+    
+    margin:20px;
 }
 
 .nav>li>a:focus,
@@ -5249,8 +5250,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 }
 
 .navbar-nav>li>a {
-    padding-top: 10px;
-    padding-bottom: 10px;
+   
     line-height: 20px
 }
 
@@ -5286,10 +5286,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
     .navbar-nav>li {
         float: left
     }
-    .navbar-nav>li>a {
-        padding-top: 15px;
-        padding-bottom: 15px
-    }
+    
 }
 
 .navbar-form {
