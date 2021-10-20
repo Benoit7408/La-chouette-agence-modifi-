@@ -7,6 +7,12 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+iframe{
+    height: 0;
+    width: 0;
+    display: none;
+    visibility: hidden;
+}
 
 #bloc-0{
     width: 100%!important;
