@@ -16,16 +16,26 @@ body {
 .col-sm-3{width: 100%;}
 .col-sm-6{
     padding: 5% 10%;
-    
+}
+
+.index__figure{
+    padding: 05%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .col-sm-6>a{
-    width: 270px;
+    width: 100%;
     display: flex!important;
     justify-content: center!important;
 }
 
 .col-sm-6 figcaption{
-    width: 270px;
+    width: 100%;
+    padding: 05%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .col-sm-12>p{
