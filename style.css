@@ -622,30 +622,24 @@ a[data-lightbox]:hover img {
     top: 20px;
     right: 20px;
     z-index: 20;
-    background: rgba(0, 0, 0, .5);
+    background: rgba(0, 0, 0);
     border: none;
     line-height: 30px;
     padding: 0 9px 5px;
-    opacity: 0.3;
+    opacity: 1;
 }
 
-.close-lightbox:hover,
-.next-lightbox:hover,
-.prev-lightbox:hover {
-    opacity: 1.0;
-    color: #FFF;
-}
+
 
 .next-lightbox,
 .prev-lightbox {
     font-size: 20px;
-    color: rgba(255, 255, 255, .9);
-    background: rgba(0, 0, 0, .5);
+    color: rgba(0, 0, 0);
     transition: all .2s ease-in-out;
     position: absolute;
     top: 45%;
     z-index: 1;
-    opacity: 0.4;
+    opacity: 1;
 }
 
 .next-lightbox {
@@ -680,7 +674,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #424242!important;
 }
 
 .container {
@@ -786,11 +780,6 @@ h4 {
 .bgc-white {
     background-color: #FFFFFF;
 }
-
-.bgc-dark-slate-blue {
-    background-color: #364577;
-}
-
 .bgc-atomic-tangerine {
     background-color: #F3976C;
 }
@@ -825,10 +814,7 @@ h4 {
     color: #c27956!important;
 }
 
-.icon-dark-slate-blue {
-    color: #364577!important;
-    border-color: #364577!important;
-}
+
 
 .bg-dots-bg {
     background-image: url("img/dots-bg.png");
