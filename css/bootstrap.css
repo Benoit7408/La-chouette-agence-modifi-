@@ -2010,10 +2010,7 @@ pre code {
     margin-left: auto
 }
 
-.row {
-    margin-right: -15px;
-    margin-left: -15px
-}
+
 
 .col-lg-1,
 .col-lg-10,
@@ -5081,8 +5078,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 }
 
 .navbar-collapse {
-    padding-right: 15px;
-    padding-left: 15px;
+    
     overflow-x: visible;
     -webkit-overflow-scrolling: touch;
     border-top: 1px solid transparent;
