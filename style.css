@@ -13,6 +13,11 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.img-responsive{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
 
 
 #bloc-0{
